@@ -38,7 +38,7 @@ import org.openqa.selenium.Alert
 //WebUI.navigateToUrl('http://13.228.241.164:8081/hreximv15/self_leave_newentry.jsp?leavetypecode=AL&staffno=0607&stype=')
 def testData = findTestData('Credentials')
 
-def staffNoValue = GlobalVariable.staffNoValue
+//def staffNoValue = GlobalVariable.staffNoValue
 
 
 
@@ -117,18 +117,23 @@ for (int i = 1; i <= testData.getRowNumbers(); i++) {
 	
     //--------------------start datestart
     // Click the "Leave Start Date" input to open the date picker
-    WebUI.click(findTestObject('Object Repository/ApplyLeave/leavestartdate'))
+   // WebUI.click(findTestObject('Object Repository/ApplyLeave/leavestartdate'))
+	
+	WebUI.executeJavaScript('document.getElementById(\'l_stdate1\').click();', null)
+	
 	WebUI.delay(2)
     // Execute JavaScript to set the input field's value
     WebUI.executeJavaScript(('document.getElementById(\'l_stdate1\').value = \'' + startdate1) + '\';', null)
-
+	
     // Optionally, click anywhere outside the date picker to close it
     DriverFactory.getWebDriver().findElement(By.tagName('body')).click()
 
     //----------------------end datestart
     //----------------------start dateend
     // Click the "Leave End Date" input to open the date picker
-    WebUI.click(findTestObject('Object Repository/ApplyLeave/leaveenddate'))
+    //WebUI.click(findTestObject('Object Repository/ApplyLeave/leaveenddate'))
+	WebUI.executeJavaScript('document.getElementById(\'l_eddate1\').click();', null)
+	
 
     // Execute JavaScript to set the input field's value
     WebUI.executeJavaScript(('document.getElementById(\'l_eddate1\').value = \'' + enddate1) + '\';', null)
@@ -138,7 +143,8 @@ for (int i = 1; i <= testData.getRowNumbers(); i++) {
 
     //----------------------end dateend
     //----------------------start Reason
-    WebUI.setText(findTestObject('Object Repository/ApplyLeave/leavereason'), remark1)
+   // WebUI.setText(findTestObject('Object Repository/ApplyLeave/leavereason'), remark1)
+	WebUI.executeJavaScript("document.getElementById('reason').value = '" + remark1 + "';", null)
 	
 }
 

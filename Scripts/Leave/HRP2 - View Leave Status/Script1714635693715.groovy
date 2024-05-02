@@ -194,7 +194,7 @@ for (int i = 1; i <= testData.getRowNumbers(); i++) {
 		//WebUI.click(findTestObject(jss,null))
 		
 	
-    WebUI.closeBrowser()
+   // WebUI.closeBrowser()
 
 }
 
