@@ -56,11 +56,11 @@ for (int i = 1; i <= testData.getRowNumbers(); i++) {
     //keywordslogin.login(username, password) // Remove the extra 'keywordslogin.login' here
     // Import the LoginMethod class
     // Define the TestObjects for the username field, password field, and login button
-    TestObject usernameField = findTestObject('usernamefield/user')
+    //TestObject usernameField = findTestObject('usernamefield/user')
 
-    TestObject passwordField = findTestObject('passwordfield/psswd')
+    //TestObject passwordField = findTestObject('passwordfield/psswd')
 
-    TestObject loginButton = findTestObject('button_LOGIN/Login Button')
+    //TestObject loginButton = findTestObject('button_LOGIN/Login Button')
 
     // Define the URL of the login page
     String loginPageUrl = 'http://13.228.241.164:8081/hrp2/stafflogin.jsp?'
@@ -161,7 +161,8 @@ for (int i = 1; i <= testData.getRowNumbers(); i++) {
     //----------------------end backup
     //----------------------start submit
     // Execute JavaScript to click the button with ID "Button2"
-    WebUI.executeJavaScript('document.getElementById(\'Button2\').click();', null) //WebUI.click(findTestObject('Object Repository/ApplyLeave/ButtonApply'))
+    WebUI.executeJavaScript('document.getElementById(\'Button2\').click();', null) 
+	//WebUI.click(findTestObject('Object Repository/ApplyLeave/ButtonApply'))
     //----------------------end submit
    // WebUI.closeBrowser()
 

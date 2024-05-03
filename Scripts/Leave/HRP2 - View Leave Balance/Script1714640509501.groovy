@@ -51,7 +51,7 @@ for (int i = 1; i <= testData.getRowNumbers(); i++) {
 
    // TestObject passwordField = findTestObject('passwordfield/psswd')
 
-    //TestObject loginButton = findTestObject('button_LOGIN/Login Button')
+   // TestObject loginButton = findTestObject('button_LOGIN/Login Button')
 
     // Define the URL of the login page
     String loginPageUrl = 'http://13.228.241.164:8081/hrp2/stafflogin.jsp?'
@@ -79,11 +79,14 @@ for (int i = 1; i <= testData.getRowNumbers(); i++) {
 
 	// WebUI.executeJavaScript('document.getElementById(\'submit\').click();', null)	
 	//WebUI.setText(passwordField, password)
+	WebUI.navigateToUrl('http://13.228.241.164:8081/hrp2/selflist_leavebalance.jsp?')
+	//WebUI.delay(2)
+	//selflist_leaveplanningcalendar_newgui.jsp?
 	
+	//document.querySelector("body > div.menu-list.menu-leave.hr-hidden > table > tbody > tr > td.row1 > a:nth-child(9)")
+	///html/body/div[18]/table/tbody/tr/td[1]/a[7]
+	///html/body/div[18]/table/tbody/tr/td[1]/a[7]
 
-	
-    WebUI.navigateToUrl('http://13.228.241.164:8081/hrp2/selflist_allleave.jsp?')
-	WebUI.delay(2)
   //  WebUI.navigateToUrl(('http://13.228.241.164:8081/hrp2/self_leave_newentry.jsp?leavetypecode=AL&staffno=' + staffnumber) + 
        // '&stype=')
 	
@@ -144,15 +147,10 @@ for (int i = 1; i <= testData.getRowNumbers(); i++) {
 	// Execute the JavaScript code
 	//WebUI.executeJavaScript(jsClick, null)
 	
-	
+	///html/body/div[18]/table/tbody/tr/td[1]/a[7]
+	///html/body/div[18]/table/tbody/tr/td[1]/a[7]
 	//this works to enter the form from listing screen
-	String jsCode = """
-	var element = document.evaluate('//*[@id="hr-list-content"]/table/tbody/tr[1]/td[3]/a', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-	if (element) {
-		element.click();
-	}
-	"""
-	WebUI.executeJavaScript(jsCode, null)
+	
 	
 	
 	

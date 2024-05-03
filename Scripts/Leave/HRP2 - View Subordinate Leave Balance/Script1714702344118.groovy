@@ -47,11 +47,11 @@ for (int i = 1; i <= testData.getRowNumbers(); i++) {
 	
 
       // Define the TestObjects for the username field, password field, and login button
-    //TestObject usernameField = findTestObject('usernamefield/user')
+   // TestObject usernameField = findTestObject('usernamefield/user')
 
-   // TestObject passwordField = findTestObject('passwordfield/psswd')
+    //TestObject passwordField = findTestObject('passwordfield/psswd')
 
-    //TestObject loginButton = findTestObject('button_LOGIN/Login Button')
+   // TestObject loginButton = findTestObject('button_LOGIN/Login Button')
 
     // Define the URL of the login page
     String loginPageUrl = 'http://13.228.241.164:8081/hrp2/stafflogin.jsp?'
@@ -79,11 +79,15 @@ for (int i = 1; i <= testData.getRowNumbers(); i++) {
 
 	// WebUI.executeJavaScript('document.getElementById(\'submit\').click();', null)	
 	//WebUI.setText(passwordField, password)
+	WebUI.navigateToUrl('http://13.228.241.164:8081/hrp2/selflist_subordinateleavebalance.jsp?')
+	//http://13.228.241.164:8081/hrp2/selflist_summary_leave_taken.jsp?mysessionid=20240503094846.267&newdate=03/05/202409:48:46
+	//WebUI.delay(2)
 	
+	
+	//document.querySelector("body > div.menu-list.menu-leave.hr-hidden > table > tbody > tr > td.row1 > a:nth-child(9)")
+	///html/body/div[18]/table/tbody/tr/td[1]/a[7]
+	///html/body/div[18]/table/tbody/tr/td[1]/a[7]
 
-	
-    WebUI.navigateToUrl('http://13.228.241.164:8081/hrp2/selflist_allleave.jsp?')
-	WebUI.delay(2)
   //  WebUI.navigateToUrl(('http://13.228.241.164:8081/hrp2/self_leave_newentry.jsp?leavetypecode=AL&staffno=' + staffnumber) + 
        // '&stype=')
 	
@@ -144,15 +148,10 @@ for (int i = 1; i <= testData.getRowNumbers(); i++) {
 	// Execute the JavaScript code
 	//WebUI.executeJavaScript(jsClick, null)
 	
-	
+	///html/body/div[18]/table/tbody/tr/td[1]/a[7]
+	///html/body/div[18]/table/tbody/tr/td[1]/a[7]
 	//this works to enter the form from listing screen
-	String jsCode = """
-	var element = document.evaluate('//*[@id="hr-list-content"]/table/tbody/tr[1]/td[3]/a', document, null, XPathResult.FIRST_ORDERED_NODE_TYPE, null).singleNodeValue;
-	if (element) {
-		element.click();
-	}
-	"""
-	WebUI.executeJavaScript(jsCode, null)
+	
 	
 	
 	
