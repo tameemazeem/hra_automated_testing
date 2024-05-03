@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>Medical_Entitlement_Table</name>
+   <tag></tag>
+   <elementGuidId>7ede0c15-37c6-41e5-906e-ac26706f6d97</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>BASIC</key>
+         <value></value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//*[@id=&quot;hr-list-content&quot;]/table</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>false</useRalativeImagePath>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <type>Main</type>
+      <value>//*[@id=&quot;hr-list-content&quot;]/table</value>
+      <webElementGuid>8b8fbb48-b0fe-4502-b285-6284199a04d7</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

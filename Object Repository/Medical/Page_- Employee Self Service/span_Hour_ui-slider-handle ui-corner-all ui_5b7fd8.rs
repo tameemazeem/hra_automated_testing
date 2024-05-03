@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>span_Hour_ui-slider-handle ui-corner-all ui_5b7fd8</name>
+   <tag></tag>
+   <elementGuidId>b0120573-6017-4736-8648-f78adcc19659</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>span.ui-slider-handle.ui-corner-all.ui-state-default.ui-state-focus.ui-state-hover</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='ui_tpicker_hour_timein0']/span</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>span</value>
+      <webElementGuid>39ebfdf2-c8c4-4e8e-a94d-d7e632f458b2</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tabindex</name>
+      <type>Main</type>
+      <value>0</value>
+      <webElementGuid>be352c85-c220-47f0-ace8-3deed1b0b710</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>class</name>
+      <type>Main</type>
+      <value>ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover</value>
+      <webElementGuid>d42feed2-c48c-4922-bed9-684d1ad41f1c</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;ui_tpicker_hour_timein0&quot;)/span[@class=&quot;ui-slider-handle ui-corner-all ui-state-default ui-state-focus ui-state-hover&quot;]</value>
+      <webElementGuid>2e28d13c-e39f-4960-afad-83d52d28b4f0</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Medical/Page_- Employee Self Service/frame_concat(body bgcolor, , FFFFFF, ,  tex_1268c1</value>
+      <webElementGuid>a53f2acc-80ea-47ff-a077-c03fa0c3becf</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='ui_tpicker_hour_timein0']/span</value>
+      <webElementGuid>4e2bd5f7-dd1e-472a-afd3-4bffc324b7ca</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//dd[2]/div/span</value>
+      <webElementGuid>7a97b812-da6c-4f40-995c-48c8fa087e27</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>

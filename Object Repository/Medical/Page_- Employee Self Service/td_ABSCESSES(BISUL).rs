@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WebElementEntity>
+   <description></description>
+   <name>td_ABSCESSES(BISUL)</name>
+   <tag></tag>
+   <elementGuidId>4113a9bc-1912-457f-a2e7-71003c02ab6c</elementGuidId>
+   <selectorCollection>
+      <entry>
+         <key>CSS</key>
+         <value>tr.hr-list-selected > td:nth-of-type(3)</value>
+      </entry>
+      <entry>
+         <key>XPATH</key>
+         <value>//div[@id='hrlookupdiv']/table/tbody/tr[2]/td[3]</value>
+      </entry>
+   </selectorCollection>
+   <selectorMethod>XPATH</selectorMethod>
+   <smartLocatorEnabled>false</smartLocatorEnabled>
+   <useRalativeImagePath>true</useRalativeImagePath>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>tag</name>
+      <type>Main</type>
+      <value>td</value>
+      <webElementGuid>980d5426-1d19-46a7-a68a-d1a5fd43cb70</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>text</name>
+      <type>Main</type>
+      <value>ABSCESSES(BISUL)</value>
+      <webElementGuid>77bda70b-f2b1-4075-929f-07fa386aaec4</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath</name>
+      <type>Main</type>
+      <value>id(&quot;hrlookupdiv&quot;)/table[@class=&quot;hr-list hr-list-sortable&quot;]/tbody[1]/tr[@class=&quot;hr-list-selected&quot;]/td[3]</value>
+      <webElementGuid>2f18a7c8-1b2c-4eef-8681-98d85142aa6d</webElementGuid>
+   </webElementProperties>
+   <webElementProperties>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>ref_element</name>
+      <type>Main</type>
+      <value>Object Repository/Medical/Page_- Employee Self Service/frame_concat(body bgcolor, , FFFFFF, ,  tex_1268c1</value>
+      <webElementGuid>3dbd1bd1-b1e8-4833-b2a1-589fa71a88d4</webElementGuid>
+   </webElementProperties>
+   <webElementXpaths>
+      <isSelected>true</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:idRelative</name>
+      <type>Main</type>
+      <value>//div[@id='hrlookupdiv']/table/tbody/tr[2]/td[3]</value>
+      <webElementGuid>7feaccbf-42ca-48bc-90e6-180b2d6da204</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ABDOMINALPAIN(SAKITBADAN/TUBUH)'])[1]/following::td[3]</value>
+      <webElementGuid>ab0bdc99-0066-4da3-83d8-77d1def42ff3</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Illness Type Description'])[1]/following::td[6]</value>
+      <webElementGuid>d88c182a-1209-41e7-bbc2-9c9d4e1fd82e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ABSENCEOFMENSTRUALPERIODS(AMENORRHEA)'])[1]/preceding::td[3]</value>
+      <webElementGuid>3535007b-2040-4c15-835d-6274d17a681e</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='ALLERGIES(ALERGIK)'])[1]/preceding::td[6]</value>
+      <webElementGuid>5bf89063-08ae-4243-b77f-24b4bdd9d7d0</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='ABSCESSES(BISUL)']/parent::*</value>
+      <webElementGuid>f8bbdcba-6b3c-4c83-8eea-4cb7d6939097</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:position</name>
+      <type>Main</type>
+      <value>//div[2]/div/table/tbody/tr[2]/td[3]</value>
+      <webElementGuid>c82e8556-0ec2-4b05-a1b3-741625a5e5a8</webElementGuid>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:customAttributes</name>
+      <type>Main</type>
+      <value>//td[(text() = 'ABSCESSES(BISUL)' or . = 'ABSCESSES(BISUL)')]</value>
+      <webElementGuid>b31c3da7-26ed-4f66-9a1a-e061bc61c5cc</webElementGuid>
+   </webElementXpaths>
+</WebElementEntity>
