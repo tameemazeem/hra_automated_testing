@@ -29,7 +29,7 @@ import com.kms.katalon.core.webui.keyword.WebUiBuiltInKeywords as WebUI
 import org.openqa.selenium.WebElement
 import com.kms.katalon.core.testobject.TestObject
 
-String TAG = "MEDICAL ENTITLEMENT: "
+String TAG = "MEDICAL EXCESS: "
 
 def credentialsData = findTestData('Credentials')
 def envData = findTestData('Env')
@@ -65,9 +65,9 @@ for(int i=1; i <= credentialsData.getRowNumbers(); i++ ) {
 
 	WebUI.delay(2)
 	
-	println(TAG + "Navigate to Medicacl Entitlement Page") // Debug statement
-
-	WebUI.navigateToUrl(hosturl + 'selflist_medicalbalance.jsp')
+	println(TAG + "Navigate to Medical Excess") // Debug statement
+	
+	WebUI.navigateToUrl(hosturl + 'selflist_medicalexcess.jsp')
 	
 	WebUI.callTestCase(findTestCase("Util/CheckIfInvalidOperation"),
 		[:],

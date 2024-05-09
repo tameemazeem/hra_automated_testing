@@ -73,7 +73,14 @@ for(int i=1; i <= credentialsData.getRowNumbers(); i++ ) {
 
 	WebUI.navigateToUrl(hosturl + 'selflist_allmedicalclaimnew.jsp')
 	
+	WebUI.callTestCase(findTestCase("Util/CheckIfInvalidOperation"),
+		[:],
+	FailureHandling.STOP_ON_FAILURE)
+
+	
 	println(TAG + "Navigate Successfull") // Debug statement
+	
+	WebUI.delay(2)
 	
 	WebUI.closeBrowser()
 }

@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestCaseEntity>
    <description></description>
-   <name>HRP2 - Apply Medical Claim</name>
+   <name>HRP2 - View Medical History</name>
    <tag></tag>
    <comment></comment>
-   <testCaseGuid>2b8bf9dd-ebaf-4d61-a034-4bb57937a9a7</testCaseGuid>
+   <testCaseGuid>94481018-6827-407b-b885-5a9c6c5214da</testCaseGuid>
 </TestCaseEntity>
